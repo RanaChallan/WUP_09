@@ -187,7 +187,8 @@ summary(best.model)
 ```{r}
 anova(Roachfullup,best.model)
 ```
-
+ 
+The Best Model - Width + Length Three
 
 ### Best Two regressor model
 
