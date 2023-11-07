@@ -145,7 +145,13 @@ Best Model - Complete Model (L1+L2+L3+H+L)
 The best Two regressor Models are L1-L3
 
 
-## Roach
+## Roach 
+
+```{r}
+Roachfullup <- lm(Weight~ .,data=Roach)
+summary.lm(Roachfullup)
+```
+
 
 ### Best Models
 
